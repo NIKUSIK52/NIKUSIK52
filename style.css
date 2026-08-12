@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    margin: 0;
+    font-family: Arial;
+    color: #222;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 10%;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.main p {
+    color: #777;
+    width: 350px;
+    line-height: 1.5;
+}
+
+.button {
+    display: inline-block;
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.main img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.green {
+    background: #00d639;
+    padding: 50px;
+    text-align: center;
+}
+
+.green h2 {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 200px;
+    padding: 25px;
+    text-align: left;
+}
+
+.card p {
+    color: #777;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 70px;
+}
+
+.info img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-text {
+    width: 350px;
+}
+
+.info-text p {
+    color: #777;
+    line-height: 1.6;
+}
+
+.footer {
+    background: #171717;
+    color: white;
+    padding: 35px 50px;
+    margin-top: 0;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-logo h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.footer-logo p {
+    margin: 0;
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #ffb000;
+}
+
+.footer-info {
+    color: #bdbdbd;
+    font-size: 13px;
+    text-align: right;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
